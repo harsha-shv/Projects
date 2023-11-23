@@ -1,0 +1,1765 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Apr 29 10:55:38 2023
+# Process ID: 6036
+# Current directory: C:/Users/aakas/Desktop/project_5/project_5/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19728 C:\Users\aakas\Desktop\project_5\project_5\project_5\project_5.xpr
+# Log file: C:/Users/aakas/Desktop/project_5/project_5/project_5/vivado.log
+# Journal file: C:/Users/aakas/Desktop/project_5/project_5/project_5\vivado.jou
+# Running On: Ak, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16962 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1282.328 ; gain = 446.617
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: 00 | muxout: 00 | muxout1: 00 | muxout2: 00 | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: 00 | register1: 02 | register2: xx | muxout: 02 | muxout1: 00 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                50000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 00 | muxout: 02 | muxout1: xx | muxout2: 00 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:                90000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 02 | muxout1: 00 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               110000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 02 | muxout1: 04 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               130000 | alu_result: 06 | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               150000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 02 | muxout1: xx | muxout2: 04 | load_word_output : 0c | store_word_output : 0c | instruction_output : 10 
+Time:               170000 | alu_result: xx | register1: 02 | register2: 0c | muxout: 02 | muxout1: 04 | muxout2: 0c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               190000 | alu_result: 06 | register1: 02 | register2: xx | muxout: 02 | muxout1: 0c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               210000 | alu_result: 0e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 0c | store_word_output : 0c | instruction_output : 10 
+Time:               230000 | alu_result: xx | register1: 02 | register2: 0c | muxout: 02 | muxout1: xx | muxout2: 0c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               250000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 0c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               270000 | alu_result: 0e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               290000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               310000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               330000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               350000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               370000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               410000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               430000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               450000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               470000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               490000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               510000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               530000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               550000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               570000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               590000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               610000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               630000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               650000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               670000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               690000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               730000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               750000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               770000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               790000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               810000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               830000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               850000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               870000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               890000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               910000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               930000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               950000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : 1c | store_word_output : 1c | instruction_output : 10 
+Time:               970000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: 1c | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               990000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1307.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: 00 | muxout: 00 | muxout1: 00 | muxout2: 00 | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: 00 | register1: 02 | register2: xx | muxout: 02 | muxout1: 00 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 90 
+Time:                50000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 00 | muxout1: 02 | muxout2: 00 | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:                70000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : d0 
+Time:                90000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 00 | store_word_output : 00 | instruction_output : f0 
+Time:               110000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               130000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 02 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 90 
+Time:               150000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               170000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 08 | store_word_output : 08 | instruction_output : d0 
+Time:               190000 | alu_result: 02 | register1: 02 | register2: 08 | muxout: 00 | muxout1: 02 | muxout2: 08 | load_word_output : 00 | store_word_output : 00 | instruction_output : f0 
+Time:               210000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               230000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 02 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 90 
+Time:               250000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               270000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               290000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : f0 
+Time:               310000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               330000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 02 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               350000 | alu_result: 04 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 00 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 90 
+Time:               370000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               390000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : d0 
+Time:               410000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 00 | muxout1: 02 | muxout2: 00 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               430000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               450000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               470000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               490000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               510000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               530000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               550000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               570000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               590000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               610000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               630000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               650000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               670000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               690000 | alu_result: 06 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               710000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 00 | muxout1: 02 | muxout2: 06 | load_word_output : 0c | store_word_output : 0c | instruction_output : d0 
+Time:               730000 | alu_result: 02 | register1: 02 | register2: 0c | muxout: 00 | muxout1: 02 | muxout2: 0c | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               750000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               770000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               790000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               810000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               830000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               850000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               870000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               890000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               910000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               930000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               950000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               970000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               990000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1307.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: 00 | muxout: 00 | muxout1: 00 | muxout2: 00 | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: 00 | register1: 02 | register2: xx | muxout: 02 | muxout1: 00 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:                50000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 01 | muxout1: 02 | muxout2: 00 | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:                70000 | alu_result: 03 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : d0 
+Time:                90000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               110000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               130000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 00 | store_word_output : 00 | instruction_output : 90 
+Time:               150000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               170000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 08 | store_word_output : 08 | instruction_output : d0 
+Time:               190000 | alu_result: 02 | register1: 02 | register2: 08 | muxout: 00 | muxout1: 02 | muxout2: 08 | load_word_output : 00 | store_word_output : 00 | instruction_output : f0 
+Time:               210000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               230000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 02 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 90 
+Time:               250000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               270000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               290000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : f0 
+Time:               310000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               330000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 02 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 10 
+Time:               350000 | alu_result: 04 | register1: 02 | register2: 00 | muxout: 02 | muxout1: 00 | muxout2: 00 | load_word_output : 00 | store_word_output : 00 | instruction_output : 91 
+Time:               370000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 01 | muxout1: 02 | muxout2: 04 | load_word_output : 00 | store_word_output : 00 | instruction_output : b0 
+Time:               390000 | alu_result: 03 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 00 | store_word_output : 00 | instruction_output : d0 
+Time:               410000 | alu_result: 02 | register1: 02 | register2: 00 | muxout: 00 | muxout1: 02 | muxout2: 00 | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               430000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               450000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               470000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               490000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               510000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               530000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               550000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               570000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               590000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               610000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               630000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               650000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               670000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 91 
+Time:               690000 | alu_result: 06 | register1: 02 | register2: 04 | muxout: 01 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               710000 | alu_result: 03 | register1: 02 | register2: 06 | muxout: 00 | muxout1: 02 | muxout2: 06 | load_word_output : 0c | store_word_output : 0c | instruction_output : d0 
+Time:               730000 | alu_result: 02 | register1: 02 | register2: 0c | muxout: 00 | muxout1: 02 | muxout2: 0c | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               750000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               770000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               790000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               810000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               830000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               850000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               870000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               890000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               910000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               930000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               950000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               970000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               990000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 91 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1307.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:                50000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:                70000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d0 
+Time:                90000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               110000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               130000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               150000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               170000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 08 | store_word_output : 08 | instruction_output : d0 
+Time:               190000 | alu_result: 02 | register1: 02 | register2: 08 | muxout: 00 | muxout1: 02 | muxout2: 08 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               210000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               230000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               250000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               270000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               290000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               310000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               330000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               350000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 91 
+Time:               370000 | alu_result: 06 | register1: 02 | register2: 04 | muxout: 01 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               390000 | alu_result: 03 | register1: 02 | register2: 06 | muxout: 00 | muxout1: 02 | muxout2: 06 | load_word_output : 0c | store_word_output : 0c | instruction_output : d0 
+Time:               410000 | alu_result: 02 | register1: 02 | register2: 0c | muxout: 00 | muxout1: 02 | muxout2: 0c | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               430000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               450000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               470000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               490000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               510000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               530000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               550000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               570000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               590000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               610000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               630000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               650000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               670000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 91 
+Time:               690000 | alu_result: 06 | register1: 02 | register2: 04 | muxout: 01 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               710000 | alu_result: 03 | register1: 02 | register2: 06 | muxout: 00 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : d0 
+Time:               730000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               750000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               770000 | alu_result: 02 | register1: 02 | register2: 06 | muxout: 02 | muxout1: 02 | muxout2: 06 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               790000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               810000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               830000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               850000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               870000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 90 
+Time:               890000 | alu_result: 04 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : b0 
+Time:               910000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 00 | muxout1: 02 | muxout2: 04 | load_word_output : 02 | store_word_output : 02 | instruction_output : d0 
+Time:               930000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : f0 
+Time:               950000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               970000 | alu_result: 02 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 02 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 10 
+Time:               990000 | alu_result: 04 | register1: 02 | register2: 04 | muxout: 02 | muxout1: 04 | muxout2: 04 | load_word_output : 04 | store_word_output : 04 | instruction_output : 91 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1307.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:                50000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:                70000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d0 
+Time:                90000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               110000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               130000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               150000 | alu_result: xx | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               170000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               350000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 02 | muxout1: xx | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:               370000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:               390000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d0 
+Time:               410000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               430000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               450000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               470000 | alu_result: xx | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               490000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               670000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 02 | muxout1: xx | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:               690000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b0 
+Time:               710000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d0 
+Time:               730000 | alu_result: 02 | register1: 02 | register2: xx | muxout: 00 | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : f0 
+Time:               750000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 00 | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               770000 | alu_result: 02 | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               790000 | alu_result: xx | register1: 02 | register2: 02 | muxout: 0X | muxout1: 02 | muxout2: 02 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               810000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : 10 
+Time:               990000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 02 | muxout1: xx | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1307.445 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d1 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 0X | muxout1: 02 | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               110000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 0X | muxout1: 02 | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               430000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: 06 | muxout: 0X | muxout1: 02 | muxout2: 06 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               750000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : d1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1319.527 ; gain = 3.418
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: processor
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2056.438 ; gain = 394.219
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v:21]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:21]
+WARNING: [Synth 8-7071] port 'alu_source2' of module 'control_unit' is unconnected for instance 'ctrl_unit_inst' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v:66]
+WARNING: [Synth 8-7023] instance 'ctrl_unit_inst' of module 'control_unit' has 10 connections declared, but only 9 given [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v:66]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:21]
+INFO: [Synth 8-6157] synthesizing module 'sign_extension' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extension' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'multiplexer' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'multiplexer' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v:21]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v:21]
+WARNING: [Synth 8-7129] Port reset in module multiplexer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input_value[7] in module sign_extension is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input_value[6] in module sign_extension is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input_value[5] in module sign_extension is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input_value[4] in module sign_extension is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input_value[3] in module sign_extension is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module register_file is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[4] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[3] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[2] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[1] in module control_unit is either unconnected or has no load
+WARNING: [Synth 8-7129] Port instruction[0] in module control_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2147.867 ; gain = 485.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2147.867 ; gain = 485.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2147.867 ; gain = 485.648
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2147.867 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[0]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[1]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[2]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[3]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[4]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[5]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[6]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[7]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[0]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[1]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[3]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[2]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[4]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[5]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[6]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[7]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2222.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2297.883 ; gain = 635.664
+24 Infos, 32 Warnings, 17 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2297.883 ; gain = 978.355
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: 03 | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:                30000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 03 | store_word_output : 03 | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : 03 | store_word_output : 03 | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2299.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: 03 | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:                30000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : 06 | store_word_output : 06 | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : 03 | store_word_output : 03 | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 03 | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : 03 | store_word_output : 03 | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : b1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 2299.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 03 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 03 | muxout: 0X | muxout1: 02 | muxout2: 03 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 91 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2382.059 ; gain = 1.270
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2393.789 ; gain = 11.473
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: xx | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2393.789 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 03 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:                30000 | alu_result: 05 | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 0a | store_word_output : 0a | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 0a | muxout: 02 | muxout1: xx | muxout2: 0a | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 0a | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               110000 | alu_result: 0c | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               130000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 18 | store_word_output : 18 | instruction_output : xx 
+Time:               150000 | alu_result: xx | register1: 02 | register2: 18 | muxout: 02 | muxout1: xx | muxout2: 18 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               170000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 18 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               190000 | alu_result: 1a | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               210000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 14 | store_word_output : 14 | instruction_output : xx 
+Time:               230000 | alu_result: xx | register1: 02 | register2: 14 | muxout: 02 | muxout1: xx | muxout2: 14 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               250000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 14 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               270000 | alu_result: 16 | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               290000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 0c | store_word_output : 0c | instruction_output : xx 
+Time:               310000 | alu_result: xx | register1: 02 | register2: 0c | muxout: 02 | muxout1: xx | muxout2: 0c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 0c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               350000 | alu_result: 0e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               430000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               450000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               470000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               490000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               510000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               530000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               550000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               570000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               590000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               610000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               630000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               670000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               750000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               770000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               790000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               810000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               830000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               850000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               870000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               890000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               910000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               930000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : 1c | store_word_output : 1c | instruction_output : xx 
+Time:               950000 | alu_result: xx | register1: 02 | register2: 1c | muxout: 02 | muxout1: xx | muxout2: 1c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 1c | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : 10 
+Time:               990000 | alu_result: 1e | register1: 02 | register2: xx | muxout: 02 | muxout1: xx | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2395.043 ; gain = 1.254
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 03 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:                30000 | alu_result: 0c | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 04 | register1: 02 | register2: 0c | muxout: 0X | muxout1: 02 | muxout2: 0c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2396.672 ; gain = 0.902
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/multiplexer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.multiplexer
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                10000 | alu_result: xx | register1: 02 | register2: xx | muxout: 02 | muxout1: 03 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:                30000 | alu_result: 0c | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                50000 | alu_result: 04 | register1: 02 | register2: 0c | muxout: 0X | muxout1: 02 | muxout2: 0c | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                70000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:                90000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               330000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               350000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               370000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               390000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               410000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               650000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               670000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               690000 | alu_result: 04 | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               710000 | alu_result: xx | register1: 02 | register2: 04 | muxout: 0X | muxout1: 02 | muxout2: 04 | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               730000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+Time:               970000 | alu_result: xx | register1: 02 | register2: xx | muxout: 0X | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : f1 
+Time:               990000 | alu_result: xx | register1: 02 | register2: xx | muxout: 01 | muxout1: 02 | muxout2: xx | load_word_output : xx | store_word_output : xx | instruction_output : xx 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 2397.402 ; gain = 0.648
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 29 12:10:55 2023...

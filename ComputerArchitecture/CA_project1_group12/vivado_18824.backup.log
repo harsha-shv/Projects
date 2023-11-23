@@ -1,0 +1,588 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Apr 16 22:52:06 2023
+# Process ID: 18824
+# Current directory: C:/Users/aakas/Desktop/project_5/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29304 C:\Users\aakas\Desktop\project_5\project_5\project_5.xpr
+# Log file: C:/Users/aakas/Desktop/project_5/project_5/vivado.log
+# Journal file: C:/Users/aakas/Desktop/project_5/project_5\vivado.jou
+# Running On: Ak, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16962 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aakas/Desktop/project_5/project_5/project_5.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/aakas/Desktop/project_5/project_5/project_5.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1270.895 ; gain = 276.730
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 16 22:55:53 2023...
+ulation top is 'processor_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aakas/Desktop/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'processor_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj processor_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module program_counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extension
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module processor_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 4 for port 'address' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:92]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'write_data_input' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:93]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 8 for port 'read_output' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:96]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.program_counter
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.sign_extension
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aakas/Desktop/project_5/project_5/project_5.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "processor_tb_behav -key {Behavioral:sim_1:Functional:processor_tb} -tclbatch {processor_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source processor_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time:                    0 | output1: xx
+Time:                35000 | output1: 01
+Time:                45000 | output1: 02
+Time:                65000 | output1: 08
+Time:                75000 | output1: xx
+Time:               185000 | output1: 02
+Time:               195000 | output1: 01
+Time:               205000 | output1: 02
+Time:               225000 | output1: 08
+Time:               235000 | output1: xx
+Time:               345000 | output1: 02
+Time:               355000 | output1: 01
+Time:               365000 | output1: 02
+Time:               385000 | output1: 08
+Time:               395000 | output1: xx
+Time:               505000 | output1: 02
+Time:               515000 | output1: 01
+Time:               525000 | output1: 02
+Time:               545000 | output1: 08
+Time:               555000 | output1: xx
+Time:               665000 | output1: 02
+Time:               675000 | output1: 01
+Time:               685000 | output1: 02
+Time:               705000 | output1: 08
+Time:               715000 | output1: xx
+Time:               825000 | output1: 02
+Time:               835000 | output1: 01
+Time:               845000 | output1: 02
+Time:               865000 | output1: 08
+Time:               875000 | output1: xx
+Time:               985000 | output1: 02
+Time:               995000 | output1: 01
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'processor_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1304.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top processor_tb [current_fileset]
+update_compile_order -fileset sources_1
+set_property top processor [current_fileset]
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 16
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Sun Apr 16 22:57:14 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1540.852 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1627.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 8 instances
+
+open_run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1802.277 ; gain = 497.551
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[1]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[2]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[3]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[4]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[5]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[6]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[7]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  {output1[0]}]]
+set_property package_pin "" [get_ports [list  {output1[7]}]]
+file mkdir C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  {output1[0]}]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  {output1[0]}]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+set_property is_loc_fixed true [get_ports [list  {output1[7]} {output1[6]} {output1[5]} {output1[4]} {output1[3]} {output1[2]} {output1[1]} {output1[0]}]]
+set_property is_loc_fixed true [get_ports [list  {output1[7]} {output1[6]} {output1[5]} {output1[4]} {output1[3]} {output1[2]} {output1[1]} {output1[0]}]]
+set_property is_loc_fixed true [get_ports [list  {output1[7]}]]
+set_property is_loc_fixed true [get_ports [list  reset]]
+set_property is_loc_fixed true [get_ports [list  clk]]
+file mkdir C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new
+close [ open C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc w ]
+add_files -fileset constrs_1 C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc
+set_property target_constrs_file C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc [current_fileset -constrset]
+save_constraints -force
+synth_design -dataflow -name dfv_1
+Command: synth_design -dataflow -name dfv_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: processor
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'branch', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'write_data_input', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:93]
+INFO: [Synth 8-11241] undeclared symbol 'write_enable', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:94]
+INFO: [Synth 8-11241] undeclared symbol 'read_enable', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:95]
+INFO: [Synth 8-11241] undeclared symbol 'read_output', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:96]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 2614.312 ; gain = 334.859
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:22]
+INFO: [Synth 8-6157] synthesizing module 'sign_extension' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extension' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'read_output' does not match port width (8) of module 'data_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:96]
+WARNING: [Synth 8-3848] Net clk in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net address in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net instruction in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net clk in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net reset in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net counter in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net input1 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net input2 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net opcode in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net result in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net clk in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net opcode in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net reg_write in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net branch in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net alu_opcode in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net mem_read in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net mem_write in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net alu_source in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net input_value in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net extended_value in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net clk in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net write_register_input in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_register1 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_register2 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net write_enable in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net write_data_input in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_register_data1 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_register_data2 in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net clk in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net address in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net write_data_input in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_enable in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net write_enable in module/entity processor does not have driver.
+WARNING: [Synth 8-3848] Net read_output in module/entity processor does not have driver.
+INFO: [Synth 8-6155] done synthesizing module 'processor' (0#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:23]
+WARNING: [Synth 8-3330] design processor has an empty top module
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2728.543 ; gain = 449.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2728.543 ; gain = 449.090
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2728.543 ; gain = 449.090
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2728.543 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[0]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[1]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[2]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[3]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[4]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[5]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[6]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'output1[7]'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'reset'. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2730.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2739.676 ; gain = 460.223
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 46 Warnings, 10 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2739.676 ; gain = 460.223
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: processor
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [C:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+INFO: [Synth 8-11241] undeclared symbol 'branch', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:64]
+INFO: [Synth 8-11241] undeclared symbol 'write_data_input', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:93]
+INFO: [Synth 8-11241] undeclared symbol 'write_enable', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:94]
+INFO: [Synth 8-11241] undeclared symbol 'read_enable', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:95]
+INFO: [Synth 8-11241] undeclared symbol 'read_output', assumed default net type 'wire' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:96]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2747.430 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:23]
+INFO: [Synth 8-6157] synthesizing module 'program_counter' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'program_counter' (1#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/program_counter.v:22]
+INFO: [Synth 8-6157] synthesizing module 'instruction_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'instruction_memory' (2#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/instruction_memory.v:22]
+INFO: [Synth 8-6157] synthesizing module 'control_unit' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:35]
+INFO: [Synth 8-6155] done synthesizing module 'control_unit' (3#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/control_unit.v:23]
+INFO: [Synth 8-6157] synthesizing module 'register_file' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'register_file' (4#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/register_file.v:22]
+INFO: [Synth 8-6157] synthesizing module 'sign_extension' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'sign_extension' (5#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/sign_extension.v:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (6#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-6157] synthesizing module 'data_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'data_memory' (7#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/data_memory.v:23]
+WARNING: [Synth 8-689] width (1) of port connection 'read_output' does not match port width (8) of module 'data_memory' [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:96]
+WARNING: [Synth 8-3848] Net write_data_input in module/entity processor does not have driver. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:93]
+WARNING: [Synth 8-3848] Net write_enable in module/entity processor does not have driver. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:94]
+WARNING: [Synth 8-3848] Net read_enable in module/entity processor does not have driver. [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:95]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (8#1) [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/sources_1/new/processor.v:23]
+WARNING: [Synth 8-7129] Port write_register_input[1] in module register_file is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_register1[1] in module register_file is either unconnected or has no load
+WARNING: [Synth 8-7129] Port read_register2[1] in module register_file is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module control_unit is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2747.430 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2766.434 ; gain = 19.004
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 2766.434 ; gain = 19.004
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2766.434 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+Finished Parsing XDC File [C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2855.875 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2871.188 ; gain = 123.758
+26 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2871.188 ; gain = 123.758
+close_design
+set_property is_loc_fixed true [get_ports [list  {output1[7]} {output1[6]} {output1[5]} {output1[4]} {output1[3]} {output1[2]} {output1[1]} {output1[0]}]]
+set_property package_pin "" [get_ports [list  {output1[7]}]]
+set_property package_pin "" [get_ports [list  {output1[7]}]]
+place_ports reset A4
+place_ports clk A6
+place_ports {output1[0]} A14
+place_ports {output1[1]} A15
+set_property package_pin "" [get_ports [list  {output1[2]}]]
+place_ports {output1[3]} A17
+place_ports {output1[2]} A16
+place_ports {output1[4]} A18
+place_ports {output1[5]} B15
+place_ports {output1[6]} B16
+place_ports {output1[7]} B17
+save_constraints
+set_property IOSTANDARD LVCMOS33 [get_ports [list {output1[6]}]]
+save_constraints
+ERROR: [Constraints 18-4419] Constraints cannot be saved because constraint file 'C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc' was read multiple times. This can lead to in-memory constraints that differ from the constraints that result from reloading the project.
+Resolution: Reload the design (refresh_design) and read each constraint file once.
+save_constraints
+ERROR: [Constraints 18-4419] Constraints cannot be saved because constraint file 'C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc' was read multiple times. This can lead to in-memory constraints that differ from the constraints that result from reloading the project.
+Resolution: Reload the design (refresh_design) and read each constraint file once.
+reset_run synth_1
+INFO: [Project 1-1160] Copying file C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/processor.dcp to C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/utils_1/imports/synth_1 and adding it to utils fileset
+save_constraints -force
+ERROR: [Constraints 18-4419] Constraints cannot be saved because constraint file 'C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc' was read multiple times. This can lead to in-memory constraints that differ from the constraints that result from reloading the project.
+Resolution: Reload the design (refresh_design) and read each constraint file once.
+save_constraints -force
+ERROR: [Constraints 18-4419] Constraints cannot be saved because constraint file 'C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc' was read multiple times. This can lead to in-memory constraints that differ from the constraints that result from reloading the project.
+Resolution: Reload the design (refresh_design) and read each constraint file once.
+save_constraints -force
+ERROR: [Constraints 18-4419] Constraints cannot be saved because constraint file 'C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/constrs_1/new/processor.xdc' was read multiple times. This can lead to in-memory constraints that differ from the constraints that result from reloading the project.
+Resolution: Reload the design (refresh_design) and read each constraint file once.
+close_design
+launch_runs synth_1 -jobs 16
+[Sun Apr 16 23:17:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Sun Apr 16 23:18:45 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/utils_1/imports/synth_1/processor.dcp with file C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/processor.dcp
+launch_runs synth_1 -jobs 16
+[Sun Apr 16 23:21:49 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Sun Apr 16 23:23:56 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/utils_1/imports/synth_1/processor.dcp with file C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/processor.dcp
+launch_runs synth_1 -jobs 16
+[Sun Apr 16 23:27:36 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Sun Apr 16 23:28:11 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun Apr 16 23:29:28 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.2
+  **** Build date : Oct 14 2022 at 05:18:10
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:0
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.2.0
+  ****** Build date   : Oct 04 2022-19:25:37
+    **** Build number : 2022.2.1664925937
+      ** Copyright 2017-2023 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2881.238 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A37E9DA
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun Apr 16 23:31:01 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 4685.270 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF Files: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 4856.598 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 4856.598 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4856.598 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM16X1D => RAM32X1D (RAMD32(x2)): 8 instances
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file C:/Users/aakas/Desktop/project_5/project_5/project_5.srcs/utils_1/imports/synth_1/processor.dcp with file C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/processor.dcp
+launch_runs synth_1 -jobs 16
+[Sun Apr 16 23:33:12 2023] Launched synth_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 16
+[Sun Apr 16 23:33:49 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+[Sun Apr 16 23:34:37 2023] Launched impl_1...
+Run output will be captured here: C:/Users/aakas/Desktop/project_5/project_5/project_5.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A37E9DA
+place_ports reset T18
+place_ports clk T17
+place_ports {output1[0]} V17
+place_ports {output1[1]} V16
+place_ports {output1[2]} W16
+place_ports {output1[3]} W17
+place_ports {output1[4]} V15
+place_ports {output1[5]} W14
+place_ports {output1[6]} W13
+place_ports {output1[7]} V2
+save_constraints -force
+close_design
+close_hw_manager
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 16 23:38:48 2023...

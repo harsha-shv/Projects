@@ -1,0 +1,32 @@
+create TABLE actors (
+	actor_id INT NOT NULL DEFAULT '0',
+	first_name VARCHAR(100) NULL DEFAULT NULL,
+	last_name VARCHAR(100) NULL DEFAULT NULL ,
+	gender CHAR(1) NULL DEFAULT NULL ,
+	movie_id INT(11) NOT NULL,
+	role VARCHAR(100) NOT NULL,
+)
+;
+
+CREATE TABLE directors (
+	director_id INT NOT NULL DEFAULT '0',
+	first_name VARCHAR(100) NULL DEFAULT NULL,
+	last_name VARCHAR(100) NULL DEFAULT NULL,
+	genre VARCHAR(100) NOT NULL,
+	movie_id INT(11) NOT NULL,
+	prob FLOAT NULL DEFAULT NULL,
+)
+;
+
+CREATE TABLE movies (
+	movie_id INT NOT NULL DEFAULT '0',
+	name VARCHAR(100) NULL DEFAULT NULL,
+	year INT NULL DEFAULT NULL,
+	rank FLOAT NULL DEFAULT NULL,
+	director_id INT(11) NOT NULL,
+	genre VARCHAR(100) NOT NULL ,
+	actor_id INT(11) NOT NULL,
+	role VARCHAR(100) NOT NULL,
+)
+;
+
